@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" class="css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/space-grotesk"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Interactive card details form</title>
+  </head>
+  <body>
+    <div class="container" id="main-container">
+      <div class="container-left"></div>
+      <div class="container-right">
+        <div class="card-front" id="'creditCardFront">
+          <svg
+            width="84"
+            height="47"
+            id="card-picture"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <ellipse cx="20.478" cy="20.5" rx="20.478" ry="20.5" fill="#fff" />
+            <path
+              d="M83.5 20.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z"
+              stroke="#fff"
+            />
+          </svg>
+          <h2 class="card-number" id="cardNumber">0000 0000 0000 0000</h2>
+          <h3 class="card-name" id="cardHolderName">JANE APPLESEED</h3>
+          <h3 class="cc-date" id="expiryDate">00/00</h3>
+        </div>
+        <div class="card-back" id="creditCardBack">
+          <h3 class="cvv-digit" id="credit-card-cvv">000</h3>
+        </div>
+        <div class="front-container">
+          
+
+          <button type="submit" class="thank" >Continue</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
